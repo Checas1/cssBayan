@@ -30,7 +30,11 @@ h1{
 .item-img{
   width: 0;
   height: 0;
-  transition: 0.7s;
+  transition:all 0.5s;
+}
+
+.item-img:active{
+  opacity: 0.3;
 }
 
 .mem__input:checked~label .item-img, .item_mem:hover .item-img{
@@ -88,3 +92,19 @@ h1{
 .item-label, .item-img, .item_mem{
   cursor: pointer;
 }
+
+/* Click */
+
+.item_mem:active .item-img{
+  opacity: 0.5;
+}
+
+.item_mem:active .item_headline{
+  color: #0e0ec0;
+}
+
+.item_mem:active .button_cross{
+  background: url('./img/square-plus-blue.svg')center no-repeat;
+}
+
+
