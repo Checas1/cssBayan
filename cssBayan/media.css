@@ -51,7 +51,7 @@
     font-size: 0.9rem;
   }
 
-  .mem__input:checked~label .item-img, .item_mem:hover .item-img {
+  .mem__input:checked~label .item-img{
     width: 90%;
     height: 90%;
     padding: 0 6rem 1rem;
@@ -72,7 +72,7 @@
     font-size: 0.6rem;
   }
 
-  .mem__input:checked~label .item-img, .item_mem:hover .item-img {
+  .mem__input:checked~label .item-img{
     width: 90%;
     height: 90%;
     padding: 0 3rem 1rem;

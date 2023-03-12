@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
 body{
   background-color: #a6d3e7;
+  font-family: 'Capriola', sans-serif;
 }
 
 .container{
   margin: 0 auto;
   width: 60%;
-  text-align: center;
 }
 
 /* header */
@@ -27,11 +29,11 @@ h1{
 
 .item_mem{
   background-color: #a6d3e7;
-  border-top: 0.15rem solid #b6b6b6;
+  border-top: 0.15rem solid #9fb5b5;
 }
 
 .item_mem:last-child{
-  border-bottom: 0.15rem solid #b6b6b6;
+  border-bottom: 0.15rem solid #9fb5b5;
 }
 
 /* Item Title */
@@ -50,8 +52,8 @@ h1{
   width: 0;
   height: 0;
   transition:all 0.8s;
+  text-align: center;
 }
-
 
 /* Button Cross */
 
@@ -84,3 +86,42 @@ h1{
   background: url('./img/square-plus-blue.svg')center no-repeat;
 }
 
+/* Footer */
+
+.footer_container{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.footer_wrapper{
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.git_link{
+  width: 10%;
+}
+
+.git_link-img{
+  width: 2rem;
+}
+
+.git_link-img:hover{
+  transform: scale(1.45);
+  transition: 0.5s;
+}
+
+.data{
+  font-size: 1.4rem;
+}
+
+.link_rs-img{
+  width: 6.6rem;
+}
+
+.link_rs-img:hover{
+  transform: scale(1.15);
+  transition: 0.5s;
+}
