@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+body{
+  background-color: #a6d3e7;
+  font-family: 'Capriola', sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* header */
+
+h1{
+  color:#0eb4c0;
+  text-align: start;
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* main */
+
+.item-label{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_mem{
+  background-color: #a6d3e7;
+  border-top: 0.15rem solid #9fb5b5;
+}
+
+.item_mem:last-child{
+  border-bottom: 0.15rem solid #9fb5b5;
+}
+
+/* Item Title */
+
+.item_headline{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color:#1010c3;
+  padding: 1rem;
+  transition: 0.7s;
+}
+
+/* Label Img */
+
+.item-img{
+  width: 0;
+  height: 0;
+  transition:all 0.8s;
+  text-align: center;
+}
+
+/* Button Cross */
+
+.button_cross{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem 1rem 0 0;
+  background: url('./img/square-plus.svg')center no-repeat;
+  transition: 0.7s;
+  opacity: 0;
+}
+
+/* Cursor */
+
+.item-label, .item-img, .item_mem{
+  cursor: pointer;
+}
+
+/* Click */
+
+.item_mem:active .item-img{
+  opacity: 0.5;
+}
+
+.item_mem:active .item_headline{
+  color: #1010c3
+}
+
+.item_mem:active .button_cross{
+  background: url('./img/square-plus-blue.svg')center no-repeat;
+}
+
+/* Footer */
+
+.footer_container{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.footer_wrapper{
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.git_link{
+  width: 10%;
+}
+
+.git_link-img{
+  width: 2rem;
+}
+
+.git_link-img:hover{
+  transform: scale(1.45);
+  transition: 0.5s;
+}
+
+.data{
+  font-size: 1.4rem;
+}
+
+.link_rs-img{
+  width: 6.6rem;
+}
+
+.link_rs-img:hover{
+  transform: scale(1.15);
+  transition: 0.5s;
+}
